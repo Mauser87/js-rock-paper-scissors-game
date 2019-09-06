@@ -29,14 +29,14 @@ function convertToWord(letter) {
 
 function changeUserImg(userChoice) {
     if (userChoice === "r") { return userChoice_img.src = array_img[0] };
-    if (userChoice === "p") { return userChoice_img.src =array_img[1] };
-    if (userChoice === "s") { return userChoice_img.src = array_img[2] };
+    if (userChoice === "p") { return userChoice_img.src = array_img[1] }
+    else { return userChoice_img.src = array_img[2] };
 }
 
 function changeComputerImg(computerChoice) {
     if (computerChoice === "r") { return computerChoice_img.src = array_img[0] };
-    if (computerChoice === "p") { return computerChoice_img.src = array_img[1] };
-    if (computerChoice === "s") { return computerChoice_img.src = array_img[2] };
+    if (computerChoice === "p") { return computerChoice_img.src = array_img[1] }
+    else { return computerChoice_img.src = array_img[2] };
 }
 
 
