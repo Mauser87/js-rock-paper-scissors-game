@@ -80,8 +80,6 @@ function draw(userChoice, computerChoice) {
 }
 
 
-
-
 function game(userChoice) {
     const computerChoice = getComputerChoice();
     changeUserImg(userChoice);
